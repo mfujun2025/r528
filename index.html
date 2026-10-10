@@ -191,6 +191,19 @@
   .step .t{font-weight:600;font-size:15px;margin:6px 0 4px}
   .step .d{color:var(--muted);font-size:13.5px;font-weight:300}
 
+  /* ===== 广告：企业400电话 ===== */
+  .ad-section{border-top:1px solid var(--line);padding:44px 0}
+  .ad-card{
+    display:flex;align-items:center;justify-content:space-between;gap:24px;
+    border:1px solid var(--gold-line);border-radius:14px;
+    background:rgba(217,180,91,.05);
+    padding:26px 32px;
+  }
+  .ad-card h3{font-family:var(--serif);font-weight:700;font-size:19px;margin-bottom:6px}
+  .ad-card h3 .hl{color:var(--gold)}
+  .ad-card p{color:var(--muted);font-size:14px;font-weight:300}
+  .ad-card .btn{flex-shrink:0}
+
   /* ===== 页脚 ===== */
   footer{padding:34px 0;border-top:1px solid var(--line)}
   .foot{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
@@ -223,6 +236,7 @@
     .steps{flex-direction:column;align-items:center;gap:26px}
     .step{max-width:100%}
     .step + .step::before{display:none}
+    .ad-card{flex-direction:column;text-align:center;align-items:center}
     .foot{justify-content:center;text-align:center}
   }
 </style>
@@ -361,6 +375,19 @@
       <div class="step"><div class="n">01</div><div class="t">邮件询价</div><div class="d">说明购买意向，确认价格</div></div>
       <div class="step"><div class="n">02</div><div class="t">确认过户</div><div class="d">约定过户平台与具体方式</div></div>
       <div class="step"><div class="n">03</div><div class="t">完成交割</div><div class="d">款项确认后即时完成过户</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 广告：企业400电话 ===== -->
+<section class="ad-section">
+  <div class="container">
+    <div class="ad-card">
+      <div>
+        <h3>企业 400 电话，<span class="hl">全国统一热线</span></h3>
+        <p>一个号码，树立企业形象；来电必接，商机不漏。</p>
+      </div>
+      <a class="btn btn-primary" href="https://400.中国/">400.中国</a>
     </div>
   </div>
 </section>
